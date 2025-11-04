@@ -1,0 +1,87 @@
+# -------------------------
+# Build / artifacts
+# -------------------------
+# Object files, compiled libraries, and binaries
+*.o
+*.obj
+*.so
+*.a
+*.dll
+*.dylib
+*.lib
+
+# Common executable names from contests / local builds
+a.out
+*.out
+*.exe
+
+# Precompiled headers / GCC precompiled
+*.gch
+*.pch
+
+# Build directories
+/build/
+/bin/
+/dist/
+/target/
+/release/
+/debug/
+/cmake-build-*/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+
+# -------------------------
+# Editor / IDE
+# -------------------------
+# VSCode
+.vscode/
+*.code-workspace
+
+# CLion / JetBrains
+.idea/
+*.iml
+
+# Visual Studio
+*.vcxproj*
+*.sln
+*.user
+*.vcxproj.filters
+
+# Other editors
+*.swp
+*~ 
+*.tmp
+
+# -------------------------
+# OS files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Logs, tests, temporary
+# -------------------------
+*.log
+*.tmp
+*.temp
+
+# -------------------------
+# Optional: test data / personal files
+# -------------------------
+# Nếu bạn có thư mục chứa test input/output cá nhân (không muốn chia sẻ), thêm ở đây:
+# /tests/
+# /data/
+
+# -------------------------
+# Optional: package manager, dependency locks (if any)
+# -------------------------
+# node_modules/        # nếu bạn có node trong project
+# .venv/               # nếu có python virtualenv
+
+# End of file
