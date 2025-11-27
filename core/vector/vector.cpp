@@ -1,5 +1,5 @@
-#include <bits/stdc++.h> // Thư viện tổng hợp (GCC) - không chuẩn C++, nhưng tiện để code CP
-#include <vector>        // Thư viện chứa cấu trúc dữ liệu vector
+#include <bits/stdc++.h>
+#include <vector> // Thư viện chứa cấu trúc dữ liệu vector
 using namespace std;
 
 /*
@@ -38,7 +38,7 @@ int main()
         Iterator = con trỏ dùng để duyệt container STL
         begin() -> iterator đầu
         end() -> iterator sau phần tử cuối
-        auto giúp tự suy luận kiểu iterator (phù hợp với container) 
+        auto giúp tự suy luận kiểu iterator (phù hợp với container)
     */
     cout << "Via Iterator: ";
     for (auto it = v.begin(); it != v.end(); ++it)

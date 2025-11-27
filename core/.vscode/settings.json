@@ -2,6 +2,8 @@
   "files.associations": {
     "*.dbclient-js": "javascript",
     "*.css": "css",
-    "xutility": "cpp"
+    "xutility": "cpp",
+    "string": "cpp",
+    "format": "cpp"
   }
 }
